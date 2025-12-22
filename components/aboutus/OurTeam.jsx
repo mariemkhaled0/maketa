@@ -23,12 +23,12 @@ function OurTeam() {
     { img: amany, name: "Malak Yasser", title: "Graphic Designer" },
   ];
   return (
-    <section className="lg:pt-20 pt-16 ">
+    <section className="lg:pt-20 pt-16  ">
       <div className="body_contanier flex items-center lg:gap-20 md:gap-10 gap-5">
-        <h2 className=" lg:text-[300px] md:text-[200px] text-[120px] lg: leading-[0.9] font-bebasneue">
+        <h2 className=" lg:text-[300px]  md:text-[200px] text-[120px] xxs:text-[80px] lg: leading-[0.9] font-bebasneue">
           our team
         </h2>
-        <p className="max-w-[300px] text-[10px] md:text-base text-end">
+        <p className="max-w-[300px] text-[10px] xxs:text-[6px] md:text-base text-end transition-all duration-300">
           Behind Maketa is a group of strategists, designers, storytellers, and
           innovators who share one mission: to help brands shine. Our team
           thrives on collaboration, bringing different skills and perspectives
@@ -58,7 +58,7 @@ function OurTeam() {
             </div>
 
             {/* NORMAL TEXT (OPTIONAL – hide on hover) */}
-            <p className="border border-white p-1 mt-3  ">{person.name}</p>
+            <p className=" p-1 mt-3  ">{person.name}</p>
             <p className=" ">{person.title}</p>
           </div>
         ))}

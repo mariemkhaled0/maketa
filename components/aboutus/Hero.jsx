@@ -5,7 +5,7 @@ import aboutusImg from "@/components/assets/aboutUsImg.png";
 function Hero() {
   return (
     <section>
-      <div className="relative pt-10 flex justify-between ">
+      <div className="relative pt-10 flex justify-between fade-in">
         {/* TEXT */}
         <div className="relative text-white pl-5 md:pl-[50px] lg:pl-[75px]">
           <h1
@@ -44,7 +44,7 @@ function Hero() {
         "
         />
       </div>
-      <div className="max-w-[90ch] pt-20 pl-5 md:pl-[50px] lg:pl-[75px] space-y-7 lg:text-sm md:text-sm text-[8px]">
+      <div className="max-w-[90ch] pt-20 pl-5 md:pl-[50px] lg:pl-[75px] space-y-7 lg:text-sm md:text-sm text-[8px] fade-in">
         <p className="font-gilroyMedium uppercase">
           At Maketa, we believe that every brand deserves to be seen and heard.
           Founded with a passion for creativity and strategy, we set out to help
