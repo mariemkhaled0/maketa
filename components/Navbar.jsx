@@ -11,10 +11,16 @@ function Navbar() {
   const pathname = usePathname();
   const [isopen, setIsopen] = useState(false);
 
-  const linkClass = (path) =>
-    pathname === path
+  const linkClass = (path) => {
+    const isActive =
+      path === "/services"
+        ? pathname.startsWith("/services")
+        : pathname === path;
+
+    return isActive
       ? "uppercase text-sm text-primaryYellow"
-      : "uppercase text-sm  hover:text-primaryYellow";
+      : "uppercase text-sm hover:text-primaryYellow";
+  };
 
   const navLinks = [
     { name: "Home", path: "/" },

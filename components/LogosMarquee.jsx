@@ -5,7 +5,7 @@ import { logosRow2 } from "./assets/logos2/logos2";
 
 export default function LogosMarquee() {
   return (
-    <section className="relative  py-24 overflow-hidden">
+    <section className="relative pb-36 pt-20 overflow-hidden">
       {/* overlays */}
       <div className="absolute left-0 top-0 h-full w-40 bg-gradient-to-r from-black to-transparent z-10" />
       <div className="absolute right-0 top-0 h-full w-40 bg-gradient-to-l from-black to-transparent z-10" />

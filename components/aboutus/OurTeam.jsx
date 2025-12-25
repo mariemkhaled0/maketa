@@ -23,7 +23,7 @@ function OurTeam() {
     { img: amany, name: "Malak Yasser", title: "Graphic Designer" },
   ];
   return (
-    <section className="lg:pt-20 pt-16  ">
+    <section className="lgP">
       <div className="body_contanier flex items-center lg:gap-20 md:gap-10 gap-5">
         <h2 className=" lg:text-[300px]  md:text-[200px] text-[120px] xxs:text-[80px] lg: leading-[0.9] font-bebasneue">
           our team

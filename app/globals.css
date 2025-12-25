@@ -38,6 +38,15 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
+.smP {
+  @apply lg:pt-20 pt-16;
+}
+.mdP {
+  @apply lg:pt-36 md:pt-20 pt-20;
+}
+.lgP {
+  @apply lg:pt-40 pt-24;
+}
 .fade-in {
   opacity: 0;
   transform: translateY(20px);

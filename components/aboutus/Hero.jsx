@@ -38,7 +38,7 @@ function Hero() {
           src={aboutusImg}
           alt="aboutus"
           className="
-          absolute right-0 -md:-bottom-20  xl:-bottom-52 lg:-bottom-20 bottom-40
+          absolute right-0 -md:-bottom-20  xl:-bottom-52 lg:-bottom-20 bottom-40 s:top-0
          xxs:w-[150px] w-[190px]  md:w-[260px] xl:w-[620px] lg:w-[380px]
           opacity-90
         "
@@ -61,10 +61,10 @@ function Hero() {
           strategy, creativity, and execution.
         </p>
       </div>
-      <div className="flex justify-center w-full px-5 md:px-[50px] lg:px-[75px]">
+      <div className="flex justify-center w-full px-5 md:px-[50px] lg:px-[75px] ">
         <p className="text-center lg:pt-20 pt-10 xl:text-5xl lg:text-4xl md:text-3xl text-xl uppercase max-w-prose font-bebasneue">
           We don’t just deliver services,
-          <span className="text-primaryYellow">We build connections</span>.{" "}
+          <span className="text-primaryYellow">We build connections</span>
           <span className="text-primaryYellow">
             We don’t just design campaigns
           </span>

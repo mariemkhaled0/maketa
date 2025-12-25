@@ -3,7 +3,7 @@ import LogosMarquee from "../LogosMarquee";
 
 function OurClients() {
   return (
-    <section className=" lg:pt-20 md:pt-20 pt-16 ">
+    <section className=" mdP ">
       <div className="flex lg:gap-20 gap-10 body_contanier items-center">
         <p className="max-w-[60ch] uppercase md:text-[10px] text-[6px] ">
           Over the years, we’ve partnered with ambitious brands that trusted us
