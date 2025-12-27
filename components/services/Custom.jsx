@@ -13,9 +13,9 @@ export default function Custom() {
             Custom
           </h2>
           <p className="font-gilroySemiBold max-w-prose md:text-xs text-sm lg:text-base">
-            Need more? We'll create a Program that's just right for you.
-            Precision crafted solutions tailored to your unique brand needs.
-            Elevating your digital experience and evolving your digital
+            Need more? We&apos;ll create a Program that&apos;s just right for
+            you. Precision crafted solutions tailored to your unique brand
+            needs. Elevating your digital experience and evolving your digital
             marketing strategies to drive radical results.
           </p>
         </div>
