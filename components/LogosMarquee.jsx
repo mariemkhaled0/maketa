@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
 import { logosRow1 } from "./assets/logos1/logos1";
-import { logosRow2 } from "./assets/logos2/logos2";
+import { logosRow2 } from "./assets/logos2/logosImgs";
 
 export default function LogosMarquee() {
   return (
