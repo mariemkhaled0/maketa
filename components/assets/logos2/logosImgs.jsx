@@ -1,4 +1,4 @@
-import Carbless from "./Carbless.png";
+import Carbless from "./CarbLess.png";
 import CTRL from "./CTRL.png";
 import DAINE from "./DAINE.png";
 import FUTRE from "./FUTRE.png";
