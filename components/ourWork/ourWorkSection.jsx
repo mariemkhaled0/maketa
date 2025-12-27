@@ -1,6 +1,6 @@
 import React from "react";
 import isla from "@/components/assets/islaMackbook.png";
-import carbless from "@/components/assets/Carbless.png";
+import carbless from "@/components/assets/CarblessSocial.png";
 import sLFMackbook from "@/components/assets/SLFMackbook.png";
 import chillHouseMackbook from "@/components/assets/ChillHouseMackbook.png";
 import Livingates from "@/components/assets/Livingates.png";
