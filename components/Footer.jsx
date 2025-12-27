@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FacebookIcon, InstagramIcon } from "./assets/icons";
+import { FacebookIcon, InstagramIcon, LinkedInIcon } from "./assets/icons";
 
 export default function Footer() {
   return (
@@ -94,7 +94,8 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-primaryYellow transition flex items-center gap-1"
               >
-                <FacebookIcon /> <span>Facebook</span>
+                <FacebookIcon />
+                <span>Facebook</span>
               </a>
             </li>
             <li>
@@ -104,7 +105,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-primaryYellow transition flex items-center gap-1"
               >
-                <InstagramIcon className={"w-4 h-4"} /> <span>instagram</span>
+                <InstagramIcon /> <span>instagram</span>
               </a>
             </li>
             <li>
@@ -112,8 +113,9 @@ export default function Footer() {
                 href="https://www.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primaryYellow transition"
+                className="hover:text-primaryYellow transition flex items-center gap-1"
               >
+                <LinkedInIcon />
                 LinkedIn
               </a>
             </li>
