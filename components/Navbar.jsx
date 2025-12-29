@@ -65,7 +65,11 @@ function Navbar() {
           <ul className="space-y-4">
             {navLinks.map((navlink, index) => (
               <li key={index}>
-                <Link href={navlink.path} className={linkClass(navlink.path)}>
+                <Link
+                  href={navlink.path}
+                  onClick={() => setIsopen(false)}
+                  className={linkClass(navlink.path)}
+                >
                   {navlink.name}
                 </Link>
               </li>

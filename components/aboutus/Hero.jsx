@@ -38,7 +38,7 @@ function Hero() {
           src={aboutusImg}
           alt="aboutus"
           className="
-          absolute right-0 -md:-bottom-20  xl:-bottom-52 lg:-bottom-20 bottom-40 s:top-0
+          absolute right-0 -md:-bottom-20  xl:-bottom-52 lg:-bottom-20 bottom-0
          mobileS:w-[150px] w-[190px]  md:w-[260px] xl:w-[620px] lg:w-[380px]
           opacity-90
         "
