@@ -1,14 +1,16 @@
 import { StarIcon } from "@/components/assets/icons";
 import HowCanWeHelp from "@/components/services/web&app/HowCanWeHelp";
 import OurWebsites from "@/components/services/web&app/OurWebsites";
-import WebAppHero from "@/components/services/web&app/WebAppHero";
+import WebAndAppHero from "@/components/services/web&app/WebAndAppHero";
+import WebAppServices from "@/components/services/web&app/WebAppServices";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
 function page() {
   return (
     <div>
-      <WebAppHero />
+      <WebAndAppHero />
+      <WebAppServices />
       <Marquee
         className="border-t border-b border-white"
         gradient={false}

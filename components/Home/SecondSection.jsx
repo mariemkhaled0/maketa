@@ -19,7 +19,10 @@ function SecondSection() {
           </h2>
           <div className="lg:flex  grid grid-cols-2  w-full  gap-3  lg:pb-40 md:pb-20 pb-20 ">
             {content.map((item, index) => (
-              <div key={index} className="flex items-center  gap-3 xxs:gap-1">
+              <div
+                key={index}
+                className="flex items-center  gap-3 mobileS:gap-1"
+              >
                 <div className="border md:w-[300px] w-[150px] lg:w-auto border-white rounded-3xl flex items-center py-1 px-2  uppercase font-gilroySemiBold">
                   <p className="xl:text-base lg:text-[10px] md:text-[10px] text-[6px] ">
                     {item}
@@ -57,7 +60,7 @@ function SecondSection() {
       <div className="flex justify-between  ">
         <div>
           <div className="flex lg:px-20 items-center  pl-6 pt-20 lg:gap-3 md:gap-6 gap-2 ">
-            <h2 className=" xl:text-6xl lg:text-5xl  md:text-4xl text-2xl  xxs:text-lg font-bebasneue">
+            <h2 className=" xl:text-6xl lg:text-5xl  md:text-4xl text-2xl  mobileS:text-lg font-bebasneue">
               Discover <span className="text-primaryYellow">Who We</span> Are
             </h2>
             <div>

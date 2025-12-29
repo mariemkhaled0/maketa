@@ -11,7 +11,7 @@ function OurClients() {
           names, our clients are proof that when creativity meets strategy,
           amazing things happen.
         </p>
-        <div className="lg:text-[250px] md:text-[150px] xxs:text-[60px] text-[80px] text-primaryYellow  font-bebasneue leading-[0.8] ">
+        <div className="lg:text-[250px] md:text-[150px] mobileS:text-[60px] text-[80px] text-primaryYellow  font-bebasneue leading-[0.8] ">
           <h2 className="">our</h2>
           <h2 className="lg:pl-40 md:pl-20">Cleints</h2>
         </div>

@@ -20,8 +20,9 @@ module.exports = {
         Rockybilly: ["var(--font-Rockybilly)"],
       },
       screens: {
-        xxs: { min: "310px", max: "390px" },
-        s: { min: "320px", max: "768px" },
+        mobileS: "320px",
+        mobileM: "375px",
+        mobileL: "425px",
       },
     },
   },

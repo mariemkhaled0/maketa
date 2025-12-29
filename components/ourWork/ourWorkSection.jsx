@@ -45,7 +45,7 @@ function OurWorkSection() {
     { img: EHC, title: "EHC", desc: "BRANDING & social media campaign " },
   ];
   return (
-    <div className="md:pb-28 pb-10 lgP">
+    <div className="md:pb-28 pb-10 smP body_contanier">
       <Work ourWork={websitesAndOurWork} />
     </div>
   );

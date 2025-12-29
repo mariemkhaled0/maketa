@@ -38,6 +38,9 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
+.ourWorkTitle {
+  @apply text-[90px]  md:text-[150px] xl:text-[280px] lg:text-[200px] mobileM:text-[80px] mobileS:text-[60px] font-bebasneue leading-none;
+}
 .smP {
   @apply lg:pt-20 pt-16;
 }
@@ -52,7 +55,12 @@ body {
   transform: translateY(20px);
   animation: fadeIn 0.6s ease forwards;
 }
-
+.heroTitle {
+  @apply font-bebasneue leading-none mobileM:text-[65px] mobileL:text-[80px]  md:text-[140px] xl:text-[270px] lg:text-[200px] mobileS:text-[50px];
+}
+.heroSubTitle {
+  @apply font-Rockybilly text-yellow-400 text-[20px] mobileM:text-[14px]  md:text-[40px] xl:text-[60px] lg:text-[40px] mobileS:text-[14px];
+}
 @keyframes fadeIn {
   to {
     opacity: 1;

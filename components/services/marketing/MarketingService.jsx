@@ -2,7 +2,7 @@ import React from "react";
 
 function MarketingService() {
   return (
-    <section className="body_contanier lgP flex justify-between flex-col gap-14 md:flex-row md:gap-0">
+    <section className="body_contanier mdP flex justify-between flex-col gap-14 md:flex-row md:gap-0 pb-20">
       <div>
         <h2 className="xl:text-[100px] lg:text-[90px]  md:text-[60px] text-[50px] font-bebasneue leading-[0.9] text-primaryYellow md:pb-10 pb-6">
           Digital

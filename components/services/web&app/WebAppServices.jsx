@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function WebAppHero() {
+export default function WebAppServices() {
   const services = [
     {
       title: "WEB DESIGN & DEVELOPMENT",
@@ -24,7 +24,7 @@ export default function WebAppHero() {
     },
   ];
   return (
-    <div className="fade-in">
+    <div className="fade-in mdP">
       <div className="pb-20 body_contanier">
         <h2 className="text-center lg:text-[150px] md:text-[120px] text-[60px] pb-10 md:pb-0 font-bebasneue ">
           Our Services

@@ -15,18 +15,18 @@ function Hero() {
             OUR
           </h1>
 
-          <h1
+          <h2
             className="font-bebasneue leading-[0.5]
            text-[100px] md:text-[180px] xl:text-[350px] lg:text-[200px]
           ml-20 sm:ml-24 md:ml-40 lg:ml-60"
           >
             STORY
-          </h1>
+          </h2>
 
           {/* SCRIPT TEXT */}
           <span
             className="absolute font-Rockybilly text-yellow-400 
-          text-[28px]  md:text-[40px] xl:text-[88px] lg:text-[55px] xxs:text-[20px]
+          text-[28px]  md:text-[40px] xl:text-[88px] lg:text-[55px] mobileS:text-[20px]
           top-[35%] left-[20%] sm:left-[25%] md:left-[30%]"
           >
             About Us
@@ -39,7 +39,7 @@ function Hero() {
           alt="aboutus"
           className="
           absolute right-0 -md:-bottom-20  xl:-bottom-52 lg:-bottom-20 bottom-40 s:top-0
-         xxs:w-[150px] w-[190px]  md:w-[260px] xl:w-[620px] lg:w-[380px]
+         mobileS:w-[150px] w-[190px]  md:w-[260px] xl:w-[620px] lg:w-[380px]
           opacity-90
         "
         />

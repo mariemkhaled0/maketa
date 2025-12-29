@@ -30,7 +30,7 @@ function ServicesGallery() {
   ];
   return (
     <section>
-      <div className="flex lgP fade-in">
+      <div className="flex lgP   fade-in">
         {services.map((service) => (
           <div key={service.id}>
             <Link href={service.path} className="relative group block">
