@@ -4,7 +4,7 @@ import custom from "@/components/assets/Custom.png";
 import Link from "next/link";
 import { ArrowIcon } from "../assets/icons";
 
-export default function Custom() {
+export default function CustomServices() {
   return (
     <section className="body_contanier smP w-full lg:pb-20 pb-10 ">
       <div className="flex justify-between w-full lg:gap-24 md:gap-20 flex-wrap md:flex-nowrap">

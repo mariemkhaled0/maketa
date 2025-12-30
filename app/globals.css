@@ -59,7 +59,7 @@ body {
   @apply font-bebasneue leading-none mobileM:text-[65px] mobileL:text-[80px]  md:text-[140px] xl:text-[270px] lg:text-[200px] mobileS:text-[50px];
 }
 .heroSubTitle {
-  @apply font-Rockybilly text-yellow-400 text-[20px] mobileM:text-[14px]  md:text-[40px] xl:text-[60px] lg:text-[40px] mobileS:text-[14px];
+  @apply font-Rockybilly text-yellow-400 text-[20px] mobileM:text-[14px]  md:text-[30px] xl:text-[60px] lg:text-[40px] mobileS:text-[14px];
 }
 @keyframes fadeIn {
   to {

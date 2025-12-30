@@ -1,4 +1,4 @@
-import Custom from "@/components/services/Custom";
+import CustomServices from "@/components/services/CustomServices";
 import OurServicesHero from "@/components/services/OurServicesHero";
 import ServicesGallery from "@/components/services/ServicesGallery";
 import React from "react";
@@ -8,7 +8,7 @@ function page() {
     <div>
       <OurServicesHero />
       <ServicesGallery />
-      <Custom />
+      <CustomServices />
     </div>
   );
 }

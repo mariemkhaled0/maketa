@@ -1,7 +1,7 @@
 import { StarIcon } from "@/components/assets/icons";
 import Hero from "@/components/Home/Hero";
-import SecondSection from "@/components/Home/SecondSection";
-import Image from "next/image";
+import WhyMaketa from "@/components/Home/WhyMaketa";
+
 import Marquee from "react-fast-marquee";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         ))}
       </Marquee>
-      <SecondSection />
+      <WhyMaketa />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { ArrowIcon, YallowStarIcon } from "../assets/icons";
 import heart from "@/components/assets/heart.png";
 import Image from "next/image";
 
-function SecondSection() {
+function WhyMaketa() {
   const content = [
     "Strategies that amplify your voice",
     "Creative visuals that get noticed",
@@ -78,4 +78,4 @@ function SecondSection() {
   );
 }
 
-export default SecondSection;
+export default WhyMaketa;

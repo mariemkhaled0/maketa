@@ -41,7 +41,7 @@ function OurWorkSection() {
       title: "TRACTO",
       desc: "WEB DESIGN & SOCIAL MEDIA CAMPAIGN",
     },
-    { img: TUYINGO, title: "TUYINGO | SHIPPING SERVICES" },
+    { img: TUYINGO, title: "TUYINGO", desc: "TUYINGO WEB DESIGN & BRANDING" },
     { img: EHC, title: "EHC", desc: "BRANDING & social media campaign " },
   ];
   return (
