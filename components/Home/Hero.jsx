@@ -17,11 +17,7 @@ function Hero() {
         <div className="flex flex-col items-center">
           <h3 className="rotate-90 mb-10 text-sm ">Follow us</h3>
           <InstagramIcon className={"w-10"} />
-          <Image
-            src={linkedinIcon}
-            alt="linkedinIcon"
-            className="w-8 h-8 mt-4"
-          />
+          <Image src={linkedinIcon} alt="linkedinIcon" className="w-6  mt-2" />
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ function WhyMaketa() {
           <h2 className="lg:text-9xl md:text-7xl text-5xl font-bebasneue lg:pb-20 md:pb-10 pb-5 ">
             Why Maketa
           </h2>
-          <div className="lg:flex  grid grid-cols-2  w-full  gap-3  lg:pb-40 md:pb-20 pb-20 ">
+          <div className="lg:flex  grid grid-cols-2  w-full  gap-3  lg:pb-40 md:pb-20 pb-10 ">
             {content.map((item, index) => (
               <div
                 key={index}
