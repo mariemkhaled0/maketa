@@ -61,6 +61,9 @@ body {
 .heroSubTitle {
   @apply font-Rockybilly text-yellow-400 text-[20px] mobileM:text-[14px]  md:text-[30px] xl:text-[60px] lg:text-[40px] mobileS:text-[14px];
 }
+.BigheroSubTitle {
+  @apply font-Rockybilly text-yellow-400 mobileL:text-[30px]  mobileM:text-[25px]  md:text-[30px] xl:text-[60px] lg:text-[40px] mobileS:text-[20px];
+}
 @keyframes fadeIn {
   to {
     opacity: 1;

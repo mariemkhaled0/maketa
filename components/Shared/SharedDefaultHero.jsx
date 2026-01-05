@@ -18,7 +18,7 @@ function SharedDefaultHero({
             services
           </h1>
           {!isBigTitle && (
-            <h2 className="heroSubTitle  lg:pt-20 pt-10 w-full ">
+            <h2 className="BigheroSubTitle mt-5 lg:pt-20 py-10 w-full ">
               {serviceTitle}
             </h2>
           )}
@@ -36,8 +36,10 @@ function SharedDefaultHero({
             {serviceTitle}
           </h2>
         )}
-        <h3 className=" font-giloryBold md:text-[45px]">{subTitle}</h3>
-        <p className="max-w-prose pt-10 uppercase font-giloryBold ">{desc}</p>
+        <h3 className=" font-giloryBold pt-6 md:text-[45px]">{subTitle}</h3>
+        <p className="max-w-prose pt-6 uppercase font-giloryBold text-sm md:text-base ">
+          {desc}
+        </p>
       </div>
     </div>
   );
