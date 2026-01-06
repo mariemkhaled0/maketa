@@ -9,18 +9,42 @@ import Image from "next/image";
 
 function OurTeam() {
   const team = [
-    { img: menna, name: "menna fawzy", title: "founder & CEO" },
-    { img: zain, name: "Zain", title: "Operation Manager" },
-
+    {
+      img: menna,
+      name: "menna fawzy",
+      title: "founder & CEO",
+      desc: "I’m here to turn your vision into reality",
+    },
     {
       img: Abdelhalim,
       name: "Abdelhalim Ahmed",
       title: "Business Development Team Leader",
+      desc: "I open doors for your next opportunity",
     },
-    { img: yassmen, name: "yasmeen sakar", title: "Social Media Specialist" },
-    { img: malak, name: "Malak Yasser", title: "Graphic Designer" },
-    { img: amany, name: "Malak Yasser", title: "Graphic Designer" },
-    { img: amany, name: "Malak Yasser", title: "Graphic Designer" },
+    {
+      img: zain,
+      name: "Zain ahmed",
+      title: "Operation Manager",
+      desc: "I’ll make sure your brand grows in the right direction",
+    },
+    {
+      img: yassmen,
+      name: "yasmeen sakar",
+      title: "Social Media Specialist",
+      desc: "I connect you with your community",
+    },
+    {
+      img: malak,
+      name: "Malak Yasser",
+      title: "Graphic Designer",
+      desc: "I design journeys people enjoy",
+    },
+    {
+      img: amany,
+      name: "Amany",
+      title: "Graphic Designer",
+      desc: "I connect you with your community",
+    },
   ];
   return (
     <section className="lgP">
@@ -52,13 +76,14 @@ function OurTeam() {
             transition-opacity duration-300
           "
               >
-                <p className="text-black font-bold text-lg">{person.name}</p>
-                <p className="text-black text-sm">{person.title}</p>
+                <p className="text-black font-bold text-lg">{person.desc}</p>
               </div>
             </div>
 
             {/* NORMAL TEXT (OPTIONAL – hide on hover) */}
-            <p className=" p-1 mt-3  ">{person.name}</p>
+            <p className=" py-1 my-3 border border-white rounded-3xl w-fit mx-auto px-3 uppercase text-sm font-gilroySemiBold">
+              {person.name}
+            </p>
             <p className=" ">{person.title}</p>
           </div>
         ))}
