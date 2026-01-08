@@ -24,7 +24,7 @@ export default function CustomServices() {
         </div>
       </div>
       <Link
-        href="/contact"
+        href="/contactus"
         className="inline-block  text-lg  transform transition duration-300 hover:scale-110 hover:-translate-y-1"
       >
         <div className="flex gap-4 items-center">

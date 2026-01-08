@@ -10,22 +10,19 @@ function Hero() {
         <div className="relative text-white pl-5 md:pl-[50px] lg:pl-[75px]">
           <h1
             className="font-bebasneue leading-none
-          text-[100px] sm:text-[180px] md:text-[180px] xl:text-[350px] lg:text-[200px]"
+          text-[100px] sm:text-[180px] md:text-[180px] xl:text-[350px] lg:text-[200px] mobileS:text-[80px]"
           >
             OUR STORY
           </h1>
 
           {/* SCRIPT TEXT */}
         </div>
-        <div className="flex justify-between items-center pt-20">
+        <div className="flex justify-between items-center md:pt-20 pt-14 lg:pt-32">
           <div>
-            <span
-              className="pt-40 font-Rockybilly text-yellow-400  pl-20
-          text-[28px]  md:text-[40px] xl:text-[88px] lg:text-[55px] mobileS:text-[20px]"
-            >
+            <span className="font-Rockybilly text-yellow-400  pl-20 w-full body_contanier mobileM:text-[6vw] text-base ">
               About Us
             </span>
-            <div className="max-w-[90ch] pt-20 pl-5 md:pl-[50px] lg:pl-[75px] space-y-7 lg:text-sm md:text-sm text-[8px] fade-in">
+            <div className="max-w-[90ch] md:pt-20 lg:pt-28 pt-6 pl-5 md:pl-[50px] lg:pl-[75px] space-y-7 lg:text-sm md:text-sm text-[8px] fade-in">
               <p className="font-gilroyMedium uppercase">
                 At Maketa, we believe that every brand deserves to be seen and
                 heard. Founded with a passion for creativity and strategy, we
@@ -50,7 +47,7 @@ function Hero() {
             alt="aboutus"
             className="
           
-         mobileS:w-[150px] w-[190px]  md:w-[260px] xl:w-[560px] lg:w-[380px] -mt-40
+         mobileS:w-[150px] w-[200px]  md:w-[500px] xl:w-[560px] lg:w-[380px] -mt-64 md:-mt-96 lg:-mt-80
          
         "
           />

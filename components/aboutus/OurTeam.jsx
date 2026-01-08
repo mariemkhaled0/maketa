@@ -5,6 +5,11 @@ import malak from "@/components/assets/malak.png";
 import yassmen from "@/components/assets/yassmen.png";
 import Abdelhalim from "@/components/assets/Abdelhalim.png";
 import amany from "@/components/assets/amany.png";
+import mergo from "@/components/assets/Mergo.png";
+import DoaaAbaid from "@/components/assets/DoaaAbaid.png";
+import MostafaMahmoud from "@/components/assets/MostafaMahmoud.png";
+import MohamedGamal from "@/components/assets/MohamedGamal.png";
+import AamenSaeed from "@/components/assets/AamenSaeed.png";
 import Image from "next/image";
 
 function OurTeam() {
@@ -12,7 +17,7 @@ function OurTeam() {
     {
       img: menna,
       name: "menna fawzy",
-      title: "founder & CEO",
+      title: "Founder & CEO",
       desc: "I’m here to turn your vision into reality",
     },
     {
@@ -23,7 +28,7 @@ function OurTeam() {
     },
     {
       img: zain,
-      name: "Zain ahmed",
+      name: "Zain fawzi",
       title: "Operation Manager",
       desc: "I’ll make sure your brand grows in the right direction",
     },
@@ -44,6 +49,36 @@ function OurTeam() {
       name: "Amany",
       title: "Graphic Designer",
       desc: "I connect you with your community",
+    },
+    {
+      img: mergo,
+      name: "Mergo",
+      title: "Video editor",
+      desc: "I tell your story through visuals and videos",
+    },
+    {
+      img: DoaaAbaid,
+      name: "Doaa Abaid",
+      title: "Content creator",
+      desc: "I’m here to keep your brand always alive and engaging",
+    },
+    {
+      img: MostafaMahmoud,
+      name: "Mostafa Mahmoud",
+      title: "Media buyer",
+      desc: "Your brand deserves attention, and I ensure it gets seen where it matters most.",
+    },
+    {
+      img: MohamedGamal,
+      name: "Mohamed Gamal",
+      title: "Social media specialist",
+      desc: "From trends to content planning, I make sure your audience is always connected and engaged",
+    },
+    {
+      img: AamenSaeed,
+      name: "Aamen Saeed",
+      title: "Film maker",
+      desc: "Your brand’s story deserves to be seen, felt, and remembered and I make that happen.",
     },
   ];
   return (
