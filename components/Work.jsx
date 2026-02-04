@@ -6,18 +6,24 @@ function Work({ ourWork }) {
     <div className="flex justify-center">
       <div className="grid grid-cols-2 max-w-9xl gap-y-10 lg:gap-x-40 gap-x-10">
         {ourWork.map((item, i) => (
-          <div
-            className="transform group transition duration-300 hover:scale-110 hover:-translate-y-1"
-            key={i}
+          <a
+            key={item.title}
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Image src={item.img} alt={"img"} className="w-[400px]" />
-            <p className="group-hover:text-primaryYellow uppercase font-giloryBold pt-5 text-center text-xs md:text-base">
-              {item.title}
-            </p>
-            {item.desc && (
-              <p className="text-center text-xs pt-2 uppercase">{item.desc}</p>
-            )}
-          </div>
+            <div className="transform group transition duration-300 hover:scale-110 hover:-translate-y-1">
+              <Image src={item.img} alt={"img"} className="w-[400px]" />
+              <p className="group-hover:text-primaryYellow uppercase font-giloryBold pt-5 text-center text-xs md:text-base">
+                {item.title}
+              </p>
+              {item.desc && (
+                <p className="text-center text-xs pt-2 uppercase">
+                  {item.desc}
+                </p>
+              )}
+            </div>
+          </a>
         ))}
       </div>
     </div>

@@ -6,7 +6,6 @@ function page() {
   return (
     <div>
       <SharedDefaultHero
-        isBigTitle={false}
         serviceTitle={"Media Production"}
         subTitle={"From concept to creation , bring your ideas to life."}
         desc={

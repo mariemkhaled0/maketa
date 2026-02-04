@@ -15,7 +15,7 @@ export default function SharedHeroSplit({
       <div className="fade-in lg:pt-20 pt-6">
         <div className="flex body_contanier items-center lg:gap-20 gap-6">
           <h1 className="ourWorkTitle">{titleStart}</h1>
-          <h2 className="font-Rockybilly text-primaryYellow text-[28px] md:text-[30px] xl:text-[70px] lg:text-[55px] mobileM:text-[16px] mobileS:text-[14px]">
+          <h2 className="font-Rockybilly text-primaryYellow mobileL:text-[23px] md:text-[30px] xl:text-[70px] lg:text-[55px] mobileM:text-[16px] mobileS:text-[14px]">
             {titleHighlight}
           </h2>
         </div>

@@ -10,6 +10,9 @@ import DoaaAbaid from "@/components/assets/DoaaAbaid.png";
 import MostafaMahmoud from "@/components/assets/MostafaMahmoud.png";
 import MohamedGamal from "@/components/assets/MohamedGamal.png";
 import AamenSaeed from "@/components/assets/AamenSaeed.png";
+import yasminTuba from "@/components/assets/yasminTuba.png";
+import nadeenWael from "@/components/assets/nadeenWael.png";
+import RanaKhaled from "@/components/assets/RanaKhaled.png";
 import Image from "next/image";
 
 function OurTeam() {
@@ -56,12 +59,7 @@ function OurTeam() {
       title: "Video editor",
       desc: "I tell your story through visuals and videos",
     },
-    {
-      img: DoaaAbaid,
-      name: "Doaa Abaid",
-      title: "Content creator",
-      desc: "I’m here to keep your brand always alive and engaging",
-    },
+
     {
       img: MostafaMahmoud,
       name: "Mostafa Mahmoud",
@@ -79,6 +77,24 @@ function OurTeam() {
       name: "Aamen Saeed",
       title: "Film maker",
       desc: "Your brand’s story deserves to be seen, felt, and remembered and I make that happen.",
+    },
+    {
+      img: yasminTuba,
+      name: "Yassmin Tuba Ahmed",
+      title: "Content Creator",
+      desc: "I’m here to keep your brand always alive and engaging",
+    },
+    {
+      img: nadeenWael,
+      name: "Nadeen Wael",
+      title: "Content Creator",
+      desc: "I’m here to keep your brand always alive and engaging",
+    },
+    {
+      img: RanaKhaled,
+      name: "Rana Khaled",
+      title: "Content Creator",
+      desc: "I’m here to keep your brand always alive and engaging",
     },
   ];
   return (
@@ -109,9 +125,11 @@ function OurTeam() {
             flex flex-col items-center justify-center
             opacity-0 group-hover:opacity-100
             transition-opacity duration-300
+            p-5
+
           "
               >
-                <p className="text-black font-bold text-lg">{person.desc}</p>
+                <p className="text-black font-bold  ">{person.desc}</p>
               </div>
             </div>
 
