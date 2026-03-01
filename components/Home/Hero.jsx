@@ -2,22 +2,48 @@ import React from "react";
 import { InstagramIcon } from "../assets/icons";
 import Image from "next/image";
 import linkedinIcon from "@/components/assets/linkedin.png";
-import Marquee from "react-fast-marquee";
 
 function Hero() {
   return (
-    <section className="h-[700px] w-full bg-[#171717] lg:px-[81px] relative">
-      <p className="absolute text-end uppercase lg:bottom-60 md:bottom-52 bottom-80 lg:right-[81px] md:text-base lg:text-base right-6 text-[10px]  fade-in  md:max-w-[30ch] lg:max-w-[40ch] max-w-[30ch] font-gilroyMedium">
-        we are a full-service Egypt marketing agency, creating high impact
-        experiences for brands. From strategy and design to digital and offline
-        campaigns, we help businesses declare their presence, connect with their
-        audience, and grow with confidence.
-      </p>
-      <div className="absolute lg:bottom-40  bottom-20  fade-in  ">
+    <section
+      className="
+      relative 
+      w-full 
+      h-[60vh] 
+      min-h-[300px] 
+      md:h-[70vh] 
+      lg:h-screen 
+      overflow-hidden
+      bg-black
+      lg:px-[40px]
+      md:px-[20px]
+      xl:px-[81px]
+
+    "
+    >
+      {/* Responsive Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-contain lg:object-cover md:object-cover bg-black"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/videos/maketaLogo.mp4" type="video/mp4" />
+      </video>
+
+      {/* Content */}
+      <div className="absolute lg:bottom-40 md:bottom-36 bottom-10 z-20">
         <div className="flex flex-col items-center">
-          <h3 className="rotate-90 mb-10 text-sm ">Follow us</h3>
-          <InstagramIcon className={"w-10"} />
-          <Image src={linkedinIcon} alt="linkedinIcon" className="w-6  mt-2" />
+          <h3 className="rotate-90  md:mb-10 mb-4 md:text-sm text-[10px] text-white">
+            Follow us
+          </h3>
+          <InstagramIcon className="w-10 text-white" />
+          <Image
+            src={linkedinIcon}
+            alt="linkedinIcon"
+            className="md:w-6 mt-2 w-4 "
+          />
         </div>
       </div>
     </section>
