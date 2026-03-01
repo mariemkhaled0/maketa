@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import logo from "@/components/assets/logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MenuIcon } from "./assets/icons";
+import { CloseIcon, MenuIcon } from "./assets/icons";
 
 function Navbar() {
   const pathname = usePathname();
@@ -31,7 +31,9 @@ function Navbar() {
   ];
   return (
     <div className="body_contanier flex items-center justify-between pt-2">
-      <Image src={logo} alt="logo" className="w-auto h-auto" />
+      <Link href="./">
+        <Image src={logo} alt="logo" className="w-auto h-auto" />
+      </Link>
 
       <nav className="hidden lg:block md:block">
         <ul className="flex gap-5">
@@ -59,7 +61,7 @@ function Navbar() {
           onClick={() => setIsopen(false)}
           className="absolute top-10 left-10 "
         >
-          close
+          <CloseIcon />
         </button>
         <nav className="">
           <ul className="space-y-4">
