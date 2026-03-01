@@ -33,7 +33,7 @@ function Hero() {
       </video>
 
       {/* Content */}
-      <div className="absolute lg:bottom-40 md:bottom-36 bottom-10 z-20">
+      <div className="absolute lg:bottom-40 md:bottom-20 bottom-10 z-20">
         <div className="flex flex-col items-center">
           <h3 className="rotate-90  md:mb-10 mb-4 md:text-sm text-[10px] text-white">
             Follow us
